@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/boltdb/bolt"
+	bolt "github.com/coreos/bbolt"
 )
 
 func TestSendReceive(t *testing.T) {

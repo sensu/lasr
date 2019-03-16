@@ -1,6 +1,6 @@
 package lasr
 
-import "github.com/boltdb/bolt"
+import bolt "github.com/coreos/bbolt"
 
 // Wait causes a message to wait for other messages to Ack, before entering the
 // Ready state.

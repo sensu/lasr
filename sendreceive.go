@@ -5,7 +5,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/boltdb/bolt"
+	bolt "github.com/coreos/bbolt"
 )
 
 // Send sends a message to Q. When send completes with nil error, the message
