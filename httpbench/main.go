@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 
 	bolt "github.com/coreos/bbolt"
-	"github.com/echlebek/lasr"
+	"github.com/sensu/lasr"
 )
 
 var port = flag.Int("port", 8080, "Port to listen on")
