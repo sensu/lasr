@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	bolt "github.com/coreos/bbolt"
+	bolt "go.etcd.io/bbolt"
 )
 
 type fataler interface {

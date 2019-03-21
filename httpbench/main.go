@@ -12,8 +12,8 @@ import (
 	"os"
 	"path/filepath"
 
-	bolt "github.com/coreos/bbolt"
 	"github.com/sensu/lasr"
+	bolt "go.etcd.io/bbolt"
 )
 
 var port = flag.Int("port", 8080, "Port to listen on")

@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	bolt "github.com/coreos/bbolt"
+	bolt "go.etcd.io/bbolt"
 )
 
 // Compact performs compaction on the queue. All messages will be copied from
